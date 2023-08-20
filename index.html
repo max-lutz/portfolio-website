@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="assets/dropdown/css/style.css">
     <link rel="stylesheet" href="assets/socicon/css/styles.css">
     <link rel="stylesheet" href="assets/theme/css/style.css">
+    <link rel="stylesheet" href="assets/theme/css/timeline.css">
     <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css">
     <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
 </head>
@@ -131,6 +132,38 @@
             </div>
         </div>
     </section>
+
+
+    <div class="row hide-if-small-screen" style="padding-top: 2%">
+        <div class="col-lg-12 text-center">
+            <svg width="1000" height="100">
+                <line x1="0" y1="50" x2="1000" y2="50" style="stroke:black; stroke-width:1"></line>
+
+                <circle cx="220" cy="50" r="10" stroke="#f8f9fa" stroke-width="6" fill="#4D92D5"></circle>
+                <text font-size="19" text-anchor="middle" x="220" y="80" fill="black">2021</text>
+                <text font-size="19" text-anchor="middle" x="90" y="30" fill="black">Engineer student</text>
+                <text style="font-style: italic" font-size="19" text-anchor="middle" x="90" y="80" fill="#5B5B5B">ECE
+                    Paris</text>
+
+                <circle cx="500" cy="50" r="10" stroke="#f8f9fa" stroke-width="6" fill="#4D92D5"></circle>
+                <text font-size="19" text-anchor="middle" x="500" y="80" fill="black">2022</text>
+                <text font-size="19" text-anchor="middle" x="360" y="30" fill="black">Data scientist</text>
+                <text style="font-style: italic" font-size="19" text-anchor="middle" x="360" y="80"
+                    fill="#5B5B5B">Omdena</text>
+
+                <circle cx="750" cy="50" r="10" stroke="#f8f9fa" stroke-width="6" fill="#4D92D5"></circle>
+                <text font-size="19" text-anchor="middle" x="750" y="80" fill="black">2023</text>
+                <text font-size="19" text-anchor="middle" x="630" y="30" fill="black">Data engineer</text>
+                <text style="font-style: italic" font-size="19" text-anchor="middle" x="630" y="80"
+                    fill="#5B5B5B">Tenko</text>
+
+                <text font-size="19" text-anchor="middle" x="880" y="30" fill="black">Data scientist</text>
+                <text style="font-style: italic" font-size="19" text-anchor="middle" x="880" y="80"
+                    fill="#5B5B5B">Freelance</text>
+
+            </svg>
+        </div>
+    </div>
 
     <section data-bs-version="5.1" class="gallery3 cid-tMwM2vyIfR" id="gallery3-6">
         <div class="container">
@@ -431,41 +464,81 @@
                         class="text-primary">max.lutz.data@gmail.com</a>
                 </h4>
             </div>
-            <div class="row justify-content-center mt-4">
-                <div class="col-lg-8 mx-auto mbr-form" data-form-type="formoid">
-                    <form action="https://mobirise.eu/" method="POST" class="mbr-form form-with-styler"
-                        data-form-title="Form Name"><input type="hidden" name="email" data-form-email="true"
-                            value="M7YkQdOok58nlqpUR+jOtljAMI/e6KqfgycitC8yUUJuUY5b+7lgJ56NhkGw2ylklI4H0U34YTzL4gDkCOLMXhgGL6mYkt0gDpTyn+yDEr4DuJ5Vjoraw95F0uGmLHIx">
-                        <div class="row">
-                            <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Thanks for
-                                your
-                                message, I'll get back to you soon!</div>
-                            <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">
-                                Oops...!
-                                some
-                                problem!</div>
-                        </div>
-                        <div class="dragArea row">
-                            <div class="col-md col-sm-12 form-group mb-3" data-for="name">
-                                <input type="text" name="name" placeholder="Name" data-form-field="name"
-                                    class="form-control" value="" id="name-form5-d">
+            <br><br>
+
+
+
+
+
+
+
+            <!--Grid column-->
+            <div class="col-md-8 container">
+                <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                    <!--Grid row-->
+                    <div class="row">
+
+                        <!--Grid column-->
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <input type="text" id="name" name="name" class="form-control">
+                                <label for="name" class="">Your name</label>
                             </div>
-                            <div class="col-md col-sm-12 form-group mb-3" data-for="email">
-                                <input type="email" name="email" placeholder="E-mail" data-form-field="email"
-                                    class="form-control" value="" id="email-form5-d">
+                        </div>
+                        <!--Grid column-->
+
+                        <!--Grid column-->
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <input type="text" id="email" name="email" class="form-control">
+                                <label for="email" class="">Your email</label>
+                            </div>
+                        </div>
+                        <!--Grid column-->
+
+                    </div>
+                    <!--Grid row-->
+
+                    <!--Grid row-->
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="md-form mb-0">
+                                <input type="text" id="subject" name="subject" class="form-control">
+                                <label for="subject" class="">Subject</label>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Grid row-->
+
+                    <!--Grid row-->
+                    <div class="row">
+
+                        <!--Grid column-->
+                        <div class="col-md-12">
+
+                            <div class="md-form">
+                                <textarea type="text" id="message" name="message" rows="2"
+                                    class="form-control md-textarea"></textarea>
+                                <label for="message">Your message</label>
                             </div>
 
-                            <div class="col-12 form-group mb-3" data-for="textarea">
-                                <textarea name="textarea" placeholder="Message" data-form-field="textarea"
-                                    class="form-control" id="textarea-form5-d"></textarea>
-                            </div>
-                            <div class="col-lg-12 col-md-12 col-sm-12 align-center mbr-section-btn"><button
-                                    type="submit" class="btn btn-secondary display-4">Send message</button></div>
                         </div>
-                    </form>
+                    </div>
+                    <!--Grid row-->
+
+                </form>
+
+                <div class="text-center text-md-left">
+                    <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
                 </div>
+                <div class="status"></div>
             </div>
+            <!--Grid column-->
         </div>
+
+
+
     </section>
 
     <section data-bs-version="5.1" class="footer7 cid-sFGSOnwtIp" once="footers" id="footer7-8">

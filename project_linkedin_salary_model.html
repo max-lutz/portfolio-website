@@ -102,14 +102,28 @@
                         <h1 class="mbr-section-title mbr-fonts-style mb-4 display-5">
                             <strong>Description</strong>
                         </h1>
-                        <p class="mbr-text align-left mbr-fonts-style mb-4 display-4">Online application to visualize a
-                            dataset with a lot of features. The user can upload his own dataset. It will be preprocessed
-                            automatically and reduced to two features which can then be displayed on a 2D graph. Basic
-                            datasets are also available to choose from.<br><br>The application uses python,
+                        <p class="mbr-text align-left mbr-fonts-style mb-4 display-7">This project presents an
+                            end-to-end machine learning solution to problem of predicting salary from job offers posted
+                            on linkedin.
+
+                            This projects consists of the following steps:
+                        </p>
+                        <ul class="display-7">
+                            <li><strong>Data collection</strong>: Web-scraping script for the linkedin website</li>
+                            <li><strong>Data preprocessing and feature engineering</strong></li>
+                            <li><strong>Model selection, training, and fine-tuning</strong>: Training more than 100
+                                models using bayesian
+                                optimization to fine-tune hyperparameters.</li>
+                            <li><strong>Model evaluation</strong>: Mlflow for comparing model performances</li>
+                            <li><strong>Model deployment</strong>: deployment on AWS using fastapi</li>
+                            <li><strong>Model monitoring</strong>: data quality, data drift and model performances.</li>
+                        </ul>
+                        <p class="mbr-text align-left mbr-fonts-style mb-4 display-7">
+                            The libraries and tools used for this project were: python, AWS lambda,
                             <a href="https://scikit-learn.org/stable/index.html" class="text-primary"
-                                target="_blank">scikit-learn</a>, <a href="https://seaborn.pydata.org/"
-                                class="text-primary" target="_blank">seaborn</a> and <a href="https://matplotlib.org/"
-                                class="text-primary" target="_blank">matplotlib</a>.
+                                target="_blank">scikit-learn</a>, <a href="https://pandas.pydata.org/"
+                                class="text-primary" target="_blank">pandas</a> and <a href="https://mlflow.org/"
+                                class="text-primary" target="_blank">mlflow</a>.
                         </p>
                         <div class="mbr-section-btn align-left mt-3"><a class="btn btn-primary display-7"
                                 href="https://high-dimension-visualization-tool.streamlit.app/" target="_blank">Online
